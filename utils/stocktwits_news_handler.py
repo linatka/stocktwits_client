@@ -1,5 +1,5 @@
-from api import StockTwitsClient, StockTwitsClientException
-from api import default_logger
+from stapi.api import StockTwitsClient, StockTwitsClientException
+from stapi.api import default_logger
 import configparser
 import pickle
 import pathlib
